@@ -4,7 +4,7 @@ export const showError = message => console.error(message)
 
 
 /// C'est celle là, la fonction anonyme ///
-export default () => {
+export const nyanCat = () => {
     var _nyan = 0;
 var __nyan = [[
 "+      o     +              o      ",

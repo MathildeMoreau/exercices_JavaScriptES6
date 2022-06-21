@@ -12,6 +12,13 @@ const bus = {
     equipments: ['sae', 'tft', 'speech']
 }
 
+for (const [key, value] of Object.entries(bus)){
+    console.log(`${key} : ${value}`)
+}
 //3.2 Object.values
 
-console.log(data)
+let donnee = Object.entries(data)
+
+donnee.forEach((texte) => {
+    console.log(texte[1]['texte'])
+})
